@@ -35,6 +35,10 @@ Check the installation:
 
 The library is known to work with Ruby 1.9.2 and above on Unix, Max OS X and Win32.
 
+## Run Tests
+
+    rake
+
 ## Getting Started
 
 The best way to start is to look at the rails_openid example.
