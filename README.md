@@ -45,7 +45,8 @@ The best way to start is to look at the rails_openid example.
 You can run it with:
 
     cd examples/rails_openid
-    script/server
+    script/rails server
+    script/rails server --port=3002 -P tmp/pids/server2.pid
 
 If you are writing an OpenID Relying Party, a good place to start is:
 `examples/rails_openid/app/controllers/consumer_controller.rb`
