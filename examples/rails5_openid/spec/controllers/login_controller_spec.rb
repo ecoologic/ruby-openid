@@ -1,9 +1,9 @@
 require 'rails_helper'
 
-RSpec.describe ApplicationController do
-  describe 'GET /dashboard' do
+RSpec.describe LoginController do
+  describe 'GET index' do
     it "works" do
-      get :dashboard
+      get :index
 
       expect(response).to be_success
     end

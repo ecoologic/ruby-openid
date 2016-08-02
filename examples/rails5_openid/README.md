@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
+* Ruby version (2.3)
 
 * Configuration
 
-* Database creation
-
-* Database initialization
+    bundle
 
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+    bundle exec rspec # check the tests are green
 
-* Deployment instructions
+* How to run the servers
 
-* ...
+    bundle exec rails server
+    bundle exec rails server -p3002 -Ptmp/pids/server2.pid

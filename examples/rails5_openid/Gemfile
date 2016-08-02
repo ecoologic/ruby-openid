@@ -1,11 +1,14 @@
 source 'https://rubygems.org'
 
+gem 'ruby-openid', path: '../..' # <== What we're testing
+
 gem 'rails', '~> 5.0.0'
 
 # Use a simpler DB
 gem 'sqlite3'
 
-gem 'puma', '~> 3.0'
+# gem 'puma', '~> 3.0'
+gem 'webrick'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 
